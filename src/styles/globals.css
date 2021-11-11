@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#__next {
+  background-color: white;
+  height: 100%;
+  width : 100%;
+}
+
+#icon-eye {
+  width   : 250px;
+  margin  : auto;
+  padding : 20px;
+  overflow: auto;
+  color   : white;
+}
